@@ -1,15 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import CardPile from "./CardPile"
 
-function CardPile(props){
-    return(
-        <div >
-            {props.Cards.map((card) => <p> {card.Value} {card.Suit}</p>)}
-        </div>
-        
-    )
-}
 
 function Player(props){
     return(
